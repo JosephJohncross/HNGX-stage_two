@@ -59,17 +59,6 @@ List all the steps to deploy the local copy of the project and make it live for 
 1. After successful import, changes made to the Production Branch (commonly "main/master") will be a Production Deployment and rest all branches will generate Preview Deployments.
 1. Once deployed, you will get a URL for your live app, such as: `https://xyz.vercel.app`
 
-## 📝Todo
-
-List all the things you plan to do next in this project or list any known issue or bug which needs to be fixed. But why this is needed..? This will help the contributors like how they can contribute to this project and also when you open this project next time to work you will exactly know what has to be done for eg:
-
--   Add logout button
--   Add search functionality
-
-## 🎈Usage
-
-Mention how your project could be used and take its advantage or you can include additional screenshots, code examples or anything relevant
-
 ## 🧬Resources
 
 List all the articles, videos or docs you referred while building this project for eg:
