@@ -71,6 +71,7 @@ WSGI_APPLICATION = 'stage_two.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# This works on production
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -81,6 +82,7 @@ DATABASES = {
     }
 }
 
+# This works locally
 # DATABASES = {'default': ""}
 # DATABASES['default'] = dj_database_url.parse(config('DB_CONNECTION_STRING'), conn_max_age=600)
 
@@ -126,8 +128,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# REST_FRAMEWORK = {
-#     'DEFAULT_RENDERER_CLASSES': (
-#         'rest_framework.renderers.JSONRenderer',
-#     ),
-# }
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': (
+        'rest_framework.renderers.JSONRenderer',
+    ),
+}
