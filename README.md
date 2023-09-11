@@ -1,7 +1,5 @@
+
 # REST API CRUD <br><br>
-
-
-
 
 ## About
 
@@ -9,7 +7,7 @@ This repo houses the source code for demonstarting basic understanding of the RE
 
 You are to build a simple REST API capable of CRUD operations on a "person" resource, interfacing with any database of your choice. Your API should dynamically handle parameters, such as adding or retrieving a person by name. Accompany the development with UML diagrams to represent your system's design and database structure. Create an automated testing script that verifies each of your API's operations. Host your entire project on GitHub, and provide a well-structured documentation in the repository that outlines request/response formats, setup instructions, and sample API usage.
 
-## ⛏️ Built with
+## Built with
 
 -   Django and DRF <br><br>
 
@@ -62,7 +60,7 @@ _**Viola !!**_ :smile: <br><br>
 
 ## Resources
 
-List all the articles, videos or docs you referred while building this project for eg:
+Some articles you can refer to, while building this project
 
 <!-- Add links to all the resources you followed or referred to -->
 
@@ -72,6 +70,6 @@ List all the articles, videos or docs you referred while building this project f
 
 ## 👋 End Note <br>
 
-Did I missed something..? or you have any idea which could be added and will make it better, feel free to contribute I will definitely add that.
+Did I missed something..? or you have any idea what could be added that will make it better, feel free to contribute I will definitely add that.
 
 The source code of each files, are well documented using the standard python docstring approach.
