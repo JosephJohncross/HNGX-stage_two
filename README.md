@@ -3,7 +3,7 @@
 
 
 
-## 🧐About
+## About
 
 This repo houses the source code for demonstarting basic understanding of the REST API methodology and how to perform basic crude operations. Below is the detail instruction for the task
 
@@ -18,13 +18,11 @@ List all the core features functionalities here. Make sure it should be a list f
 
 ## ⛏️Built with
 
-List all the major modules, frameworks, package, dependencies etc in bullet points. Leave add-ons/plugins for the acknowledgements section. for eg:
-
 -   Django-rest-framework
+-   Django 
 
-## 🏁Getting Started
+## 🏁Getting Started <br>
 
-These instructions will help you to setup your own copy of Readme Template on your local machine for development and testing purposes. See [deployment](#Deployment) for notes on how to deploy the project on a live system.
 
 ### 📚Prerequisite
 
