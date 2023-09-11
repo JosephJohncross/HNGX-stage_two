@@ -4,4 +4,4 @@ pip install -r requirements.txt
 
 pip install gunicorn
 
-python manage.py migrate
+# python manage.py migrate
