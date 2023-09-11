@@ -58,7 +58,9 @@ Step by step methods to guide the reader how to setup local dev environment for 
 1. Navigate to http://localhost:8000/api<br><br>
 _**Viola !!**_ :smile: <br><br>
 
+## Live Demo
 
+https://hngx-stage-two-8l8p.onrender.com/api <br><br>
 ## Resources
 
 Some articles you can refer to, while building this project
