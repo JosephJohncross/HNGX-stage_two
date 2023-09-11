@@ -28,8 +28,12 @@ List all things your project needs to work for eg:
 Step by step methods to guide the reader how to setup local dev environment for eg:
 
 1. Clone this repo
-1. Install all the dependencies
-
+1. Setup and start your virtual environment
+   - **Window**
+   - [Setup virtual environment on windows](https://medium.com/analytics-vidhya/virtual-environment-6ad5d9b6af59) <br>
+   - **Linux**
+   - [Setup virtual environment on windows](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv.html)) <br>
+    
     ```bash
     yarn
     ```
