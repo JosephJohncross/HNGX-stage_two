@@ -7,4 +7,4 @@ class Person(models.Model):
     """Model represnting a person object"""
 
     name = models.CharField(unique=True)
-    id = models.AutoField(unique=True, primary_key=True)
+    # id = models.AutoField(primary_key=True)

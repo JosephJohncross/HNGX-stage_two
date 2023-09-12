@@ -126,7 +126,12 @@ class PersonCustomView(APIView):
 def create_person(request):
     """Creates a person object"""
 
-    serializer = GeneralPersonSerializer(data=request.data)
+    name = request.POST.get('name')
+    data = {
+        'name': name
+    }
+
+    serializer = GeneralPersonSerializer(data=data)
 
     if serializer.is_valid():
         serializer.save()
