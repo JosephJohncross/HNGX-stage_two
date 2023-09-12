@@ -20,7 +20,7 @@ The REST API to the example app is described below.
     Content-Type: application/json
     Content-Length: 2
 
-    {"name": "Mark Essien", "id": 3}
+    {"name": "Mark Essien", "id": 1}
 
 ## Create a person
 
