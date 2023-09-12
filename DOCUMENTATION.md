@@ -7,9 +7,9 @@ The REST API to the example app is described below.
 
 ### Request
 
-`GET /api`
+`GET /api/id`
 
-    curl -i -H 'Accept: application/json'  http://localhost:8000/api?name="Mark Essien"
+    curl -i -H 'Accept: application/json'  https://hngx-stage-two-8l8p.onrender.com/api/1
 
 ### Response
 
@@ -28,7 +28,7 @@ The REST API to the example app is described below.
 
 `POST /api`
 
-    curl -i -H 'Accept: application/json' -d 'name=Mark Essien' http://localhost:8000/api
+    curl -i -H 'Accept: application/json' -d 'name=Mark Essien' https://hngx-stage-two-8l8p.onrender.com/api
 
 ### Response
 
@@ -45,9 +45,9 @@ The REST API to the example app is described below.
 
 ### Request
 
-`PATCH /api`
+`PATCH /api/id`
 
-    curl -i -H 'Accept: application/json' -X PATCH -d 'name=Melody James&id=3' http://localhost:8000/api
+    curl -i -H 'Accept: application/json' -X PATCH -d 'name=Melody James' https://hngx-stage-two-8l8p.onrender.com/api/1
 
 ### Response
 
@@ -58,15 +58,15 @@ The REST API to the example app is described below.
     Content-Type: application/json
     Content-Length: 36
 
-    {"person": {"name": "Melody James"}}
+    {"name": "Mark Essien","id": 1}
 
 ## Delete a person
 
 ### Request
 
-`DELETE /api`
+`DELETE /api/id`
 
-    curl -i -H 'Accept: application/json' -X DELETE -d 'id=3' http://localhost:8000/api
+    curl -i -H 'Accept: application/json' -X DELETE https://hngx-stage-two-8l8p.onrender.com/api/1
 
 ### Response
 
