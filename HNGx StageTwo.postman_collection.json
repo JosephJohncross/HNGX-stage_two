@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "517cfc7e-67f7-41dc-a067-d5393df46e42",
+		"name": "HNGx StageTwo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23588098"
+	},
+	"item": [
+		{
+			"name": "READ",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://hngx-stage-two-8l8p.onrender.com/api/1",
+					"protocol": "https",
+					"host": [
+						"hngx-stage-two-8l8p",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Mark Essien",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://hngx-stage-two-8l8p.onrender.com/api",
+					"protocol": "https",
+					"host": [
+						"hngx-stage-two-8l8p",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Melody James",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://hngx-stage-two-8l8p.onrender.com/api/1",
+					"protocol": "https",
+					"host": [
+						"hngx-stage-two-8l8p",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "https://hngx-stage-two-8l8p.onrender.com/api/1",
+					"protocol": "https",
+					"host": [
+						"hngx-stage-two-8l8p",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
