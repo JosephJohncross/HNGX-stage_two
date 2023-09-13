@@ -95,7 +95,7 @@ class PersonCustomView(APIView):
                     "A person with the updated name already exist",
                     status=status.HTTP_400_BAD_REQUEST
                 )
-            else:                
+            else:
                 serializer.save()
                 person_serializer = GetPersonSerializer(person)
 
@@ -135,9 +135,17 @@ def create_person(request):
 
     if serializer.is_valid():
         serializer.save()
+        try:
+            person = Person.objects.get(name=name)
+        except:
+            return Response(
+                "Something went wrong",
+                status=status.HTTP_400_BAD_REQUEST
+            )
+        person_serializer = GetPersonSerializer(person)
 
         return Response(
-            "Person created succesfully",
+            person_serializer.data,
             status=status.HTTP_200_OK
         )
     else:
