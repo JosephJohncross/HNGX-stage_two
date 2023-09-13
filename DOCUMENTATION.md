@@ -45,7 +45,7 @@ The REST API to the example app is described below.
 
 ### Request
 
-`PATCH /api/id`
+`PUT /api/id`
 
     curl -i -H 'Accept: application/json' -X PATCH -d 'name=Melody James' https://hngx-stage-two-8l8p.onrender.com/api/1
 
