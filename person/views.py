@@ -30,11 +30,11 @@ class PersonCustomView(APIView):
             )
         except Person.DoesNotExist:
             return Response(
-                {"details" : "User does not exist"},
+                {"details": "User does not exist"},
                 status=status.HTTP_404_NOT_FOUND
             )
 
-    def patch(self, request, id):
+    def put(self, request, id):
         """Updates a person object"""
 
         # id = request.data.get('id')
@@ -119,7 +119,7 @@ class PersonCustomView(APIView):
             return Response(status=status.HTTP_404_NOT_FOUND)
 
         person.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
+        return Response({"message": "User deleted successfully"}, status=status.HTTP_204_NO_CONTENT)
 
 
 @api_view(['POST'])
