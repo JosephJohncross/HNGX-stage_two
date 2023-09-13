@@ -30,7 +30,7 @@ class PersonCustomView(APIView):
             )
         except Person.DoesNotExist:
             return Response(
-                "User does not exist",
+                {"details" : "User does not exist"},
                 status=status.HTTP_404_NOT_FOUND
             )
 
@@ -82,7 +82,7 @@ class PersonCustomView(APIView):
             person = Person.objects.get(id=id)
         except Person.DoesNotExist:
             return Response(
-                "No user with id found",
+                {"error": "No user with id found"},
                 status=status.HTTP_404_NOT_FOUND
             )
 
@@ -92,7 +92,7 @@ class PersonCustomView(APIView):
             person_exist = Person.objects.filter(name=name)
             if person_exist:
                 return Response(
-                    "A person with the updated name already exist",
+                    {"detail": "A person with the updated name already exist"},
                     status=status.HTTP_400_BAD_REQUEST
                 )
             else:
